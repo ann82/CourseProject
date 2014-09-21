@@ -42,19 +42,28 @@ Transformation steps -
 There are 5 parts:
 
 Merges the training and the test sets to create one data set.
+
 Extracts only the measurements on the mean and standard deviation for each measurement.
+
 Uses descriptive activity names to name the activities in the data set
+
 Appropriately labels the data set with descriptive activity names.
+
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 run_analysis.R steps - 
 ======================
 
-1.Require reshape2 and data.table librareis.
+1. Require reshape2 and data.table libraries.
+
 2. Load both test and train data
+
 3. Load the features and activity labels.
+
 4. Extract the mean and standard deviation column names and data.
+
 5. Process the data. There are two parts processing test and train data respectively.
+
 6. Merge data set.
 
 
